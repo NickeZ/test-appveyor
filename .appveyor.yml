@@ -1,4 +1,8 @@
-#environment:
+matrix:
+    - dummy: true
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+
+    - dummy: false
 
 platform:
     - x64
