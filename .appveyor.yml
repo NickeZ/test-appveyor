@@ -6,6 +6,7 @@ platform:
 
 build_script:
     - cmd: dir C:\Libraries\boost
+    - cmd: dir C:\Libraries\boost\boost
     - cmd: dir C:\Libraries\boost_1_58_0
     - cmd: dir C:\Libraries\boost_1_59_0
     - cmd: dir C:\Libraries\boost_1_60_0
